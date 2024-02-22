@@ -1,0 +1,77 @@
+< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport"content="width=device-width, initial-scale=1.0"><title>Marketplace App</title><style>
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d0d0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #d10000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Heading Styles */
+h3 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Product Styles */
+.product {
+    margin: 0 auto 20px;
+    padding: 10px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Product Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Email Field Styles */
+.email-field {
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+}
+
+</style></head><body>< !-- Header Content --><header><h1>Marketplace App</h1><p>Welcome to our marketplace where you can find amazing products !</p></header>< !-- Main Content Section --><main><section id="products">< !-- Featured Product 1 --><div class="product"><h3>Graphic Card RTX 2080</h3><img src="https://images.pexels.com/photos/18338417/pexels-photo-18338417/free-photo-of-teknologi-elektronik-gul-bakgrund-geforce.jpeg?auto=compress&cs=tinysrgb&w=600"alt="GRAFIKKORT RTX 2080"><p>Description for Product 1.</p><ul><li>Price: $219</li><li>Category: computer</li><li>Rating: 4.9 stars</li></ul><div class="email-field"><label for="email1">Email:</label><input type="email"id="email1"name="email1"placeholder="Enter your email"></div><button>View Details</button></div>< !-- Featured Product 2 --><div class="product"><h3>Memory RAM</h3><img src="https://images.pexels.com/photos/2582928/pexels-photo-2582928.jpeg?auto=compress&cs=tinysrgb&w=600"alt="RAM memory"><p>Description for Product 2.</p><ul><li>Price: $79</li><li>Category: computer</li><li>Rating: 5.0 stars</li></ul><div class="email-field"><label for="email2">Email:</label><input type="email"id="email2"name="email2"placeholder="Enter your email"></div><button>View Details</button></div></section></main>< !-- Footer Section --><footer><p>&copy;
+2024 Marketplace App Jeanette Söderman. All rights reserved.</p></footer></body></html>
